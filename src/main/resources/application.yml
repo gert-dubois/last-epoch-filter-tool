@@ -8,6 +8,7 @@ spring:
   mustache:
     check-template-location: false
 vaadin:
+  productionMode: true
   launch-browser: true
   whitelisted-packages: com.vaadin,org.vaadin,ai.flamix.le
   pnpm-enabled: true
