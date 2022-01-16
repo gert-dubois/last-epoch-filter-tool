@@ -1,0 +1,5 @@
+.equipment-grid .implicits {
+    color: var(--lumo-primary-text-color);
+    font-size: var(--lumo-font-size-xxs);
+    font-style: italic;
+}

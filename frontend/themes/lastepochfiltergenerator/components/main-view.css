@@ -1,0 +1,10 @@
+.main-view {
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+.main-view .navigation {
+    max-width: 60rem;
+    margin: 0 auto;
+    width: 100%;
+}

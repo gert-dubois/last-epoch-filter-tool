@@ -1,0 +1,10 @@
+.affix-grid .type {
+    color: var(--lumo-header-text-color);
+    text-transform: uppercase;
+}
+
+.affix-grid .title {
+    color: var(--lumo-primary-text-color);
+    font-size: var(--lumo-font-size-xxs);
+    font-style: italic;
+}

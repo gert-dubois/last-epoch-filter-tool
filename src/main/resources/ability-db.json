@@ -1,0 +1,2971 @@
+[
+  {
+    "abilityID": 1,
+    "properties": [
+      {
+        "propertyName": "Pierce Chance with Fireball",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": "Gives Fireball a chance to continue through targets it hits"
+      }
+    ]
+  },
+  {
+    "abilityID": 12,
+    "properties": [
+      {
+        "propertyName": "Increased Area with Elemental Nova",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Elemental Nova is now cast at the target location",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 75,
+    "properties": [
+      {
+        "propertyName": "Increased Summon Spriggan damage",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Extra Spriggans",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": "These do not count towards your overall companion limit."
+      },
+      {
+        "propertyName": "Increased Spriggan Movement Speed",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 223,
+    "properties": [
+      {
+        "propertyName": "Increased damage while in Spriggan Form",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Rage gained every 3 seconds while in Spriggan Form",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "You Cannot Move While in Spriggan Form",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Health Regen while in Spriggan Form",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Increased Spriggan Form Movement Speed",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 336,
+    "properties": [
+      {
+        "propertyName": "Ward gained when you cast Flame Ward",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Charge for Flame Ward",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 78,
+    "properties": [
+      {
+        "propertyName": "Increased Volcanic Orb Damage",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Reduced Volcanic Orb Speed",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Volcanic Orb Base Damage Converted to Cold",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 1,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Increased Volcanic Orb Speed",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Increased Cooldown Recovery Speed for Volcanic Orb ",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Increased Volcanic Orb Shrapnel Speed",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 162,
+    "properties": [
+      {
+        "propertyName": "Increased Fire Aura damage",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Increased Fire Aura area",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Increased void damage per fire aura",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Fire Aura Base Damage per Second",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Chance to cast Fire Aura on Potion Use",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 186,
+    "properties": [
+      {
+        "propertyName": "Seconds to Sigils of Hope Duration",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 106,
+    "properties": [
+      {
+        "propertyName": "Lightning damage with Hammer Throw",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Increased damage with Hammer Throw",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 91,
+    "properties": [
+      {
+        "propertyName": "Rive critical strike multiplier",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Increased area with Rive",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Mana Gained when you use Rive and hit at least one enemy",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": "You do not gain mana when an echo uses Rive"
+      }
+    ]
+  },
+  {
+    "abilityID": 197,
+    "properties": [
+      {
+        "propertyName": "Judgement critical strike multiplier",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Increased Cooldown Recovery Speed for Judgement",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 218,
+    "properties": [
+      {
+        "propertyName": "Increased area with Forge Strike",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "More damage to ignited enemies with Forge Strike",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Melee Fire Damage with Forge Strike per Forged Weapon",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 107,
+    "properties": [
+      {
+        "propertyName": "Increased damage with Vengeance",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Mana Gained when you use Vengeance and hit at least one enemy",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": "You do not gain mana when an echo uses Vengeance"
+      }
+    ]
+  },
+  {
+    "abilityID": 216,
+    "properties": [
+      {
+        "propertyName": "Increased damage with Smite",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Smite Base Damage Converted to Void",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 1,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Mana Gained When you directly use Smite",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Increased Cast Speed with Smite per 2% Missing Mana",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": "If you have negative mana equal to  20% of your max mana then you have 120% missing mana"
+      },
+      {
+        "propertyName": "Adaptive Spell Damage with Smite per 5 Missing Mana",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": "If you have -40 current mana and 200 max mana then you have 240 missing mana"
+      },
+      {
+        "propertyName": "Smite scaling converted to Vitality",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 1,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 267,
+    "properties": [
+      {
+        "propertyName": "Chance to deal +20 fire damage with Shield Throw",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Shield Throw Damage Converted to Void",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 1,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": "Converts all damage, not just base damage."
+      },
+      {
+        "propertyName": "Increased critical strike chance with Shield Throw",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 157,
+    "properties": [
+      {
+        "propertyName": "Bone Golem cannot be stunned",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": "Applies to all types of Bone Golem"
+      },
+      {
+        "propertyName": "Increased stun chance and duration for Bone Golem",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": "Applies to all types of Bone Golem"
+      },
+      {
+        "propertyName": "Armor for Bone Golem",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": "Applies to all types of Bone Golem"
+      },
+      {
+        "propertyName": "Chance to replenish one potion when Bone Golem hits an enemy",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": "Applies to all types of Bone Golem"
+      }
+    ]
+  },
+  {
+    "abilityID": 256,
+    "properties": [
+      {
+        "propertyName": "Increased Aura of Decay area",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Increased Poison Damage while Aura of Decay is active",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 1,
+        "dontDisplayPlus": 0,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 285,
+    "properties": [
+      {
+        "propertyName": "Armor granted by Bone Armor",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 153,
+    "properties": [
+      {
+        "propertyName": "Chance for Hungering Souls to fire 6 additional projectiles",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Chance to gain 20 ward on kill with Hungering Souls",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Hungering Souls Base Damage Converted to Fire",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 1,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Hungering Souls Possess Effect Per Stack of Damned",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Hungering Souls Max Possess Effect Per Stack of Damned",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 253,
+    "properties": [
+      {
+        "propertyName": "Increased Cooldown Recovery Speed for Transplant",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Chance to cast Marrow Shards when you cast Transplant",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Reduced Health Cost of Spells",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 137,
+    "properties": [
+      {
+        "propertyName": "Increased damage with Rip Blood",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Chance to Cast Rip Blood at 5 nearby targets on Melee Hit (3 second cooldown)",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Health Gained from Rip Blood",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": "Increases the health gained from Blood Orbs created by Rip Blood. Affected by Increased Healing Effectiveness."
+      }
+    ]
+  },
+  {
+    "abilityID": 138,
+    "properties": [
+      {
+        "propertyName": "Increased damage with Blood Splatter",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 120,
+    "properties": [
+      {
+        "propertyName": "Critical Strike Chance for Skeletons",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": "Only affects the Summon Skeleton skill"
+      },
+      {
+        "propertyName": "Damage Reflected for Skeletons",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 1,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": "Only affects the Summon Skeleton skill"
+      },
+      {
+        "propertyName": "Summon Skeleton fire, cold or lightning damage to spells and attacks",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 1,
+        "dontDisplayPlus": 0,
+        "altText": "Element selected is your lowest elemental resistance."
+      },
+      {
+        "propertyName": "Increased Skeleton Damage",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": "Only affects the Summon Skeleton skill"
+      },
+      {
+        "propertyName": "Maximum Skeletons",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": "Only affects the Summon Skeleton skill"
+      },
+      {
+        "propertyName": "chance when one of your Skeletons dies to resummon a new one after 3 seconds",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": "Only affects the Summon Skeleton skill"
+      },
+      {
+        "propertyName": "Player Poison Damage Applies to Skeleton Rogues",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 1,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Physical Penetration for Summoned Skeletons",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": "Only affects the Summon Skeleton skill"
+      },
+      {
+        "propertyName": "Poison Penetration for Summoned Skeletons",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": "Only affects the Summon Skeleton skill"
+      }
+    ]
+  },
+  {
+    "abilityID": 291,
+    "properties": [
+      {
+        "propertyName": "Critical Strike Shance for Skeleton Mages",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Damage Reflected for Skeleton Mages",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 1,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Necrotic spell damage per active Skeleton Mage",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": "This counts all variants of Skeleton Mages that exist in the skill tree."
+      },
+      {
+        "propertyName": "Summoned Skeleton Mages can now cast Bone Barrage",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Increased spell damage per active Skeleton Mage",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Increased Skeleton Mage Damage",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 146,
+    "properties": [
+      {
+        "propertyName": "Chance for Summon Wraith to summon a Putrid Wraith instead",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Chance for Summon Wraith to summon a Flame Wraith instead",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Maximum Wraiths",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": "Affects the Acolyte's "
+      }
+    ]
+  },
+  {
+    "abilityID": 140,
+    "properties": [
+      {
+        "propertyName": "Chance to gain 50 ward when you Sacrifice a Skeleton or Skeleton Mage",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Chance to gain 50 ward when you Sacrifice a Wraith",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 68,
+    "properties": [
+      {
+        "propertyName": "Increased cast speed while you have Lightning Aegis",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Damage reflected while you have Lightning Aegis",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 1,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Chance to cast Lightning Blast when hit while you have Lightning Aegis",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": "This will use your Lightning Blast skill tree."
+      },
+      {
+        "propertyName": "Increased lightning damage while you have Lightning Aegis",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 97,
+    "properties": [
+      {
+        "propertyName": "Increased Warpath area",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Endurance while channelling Warpath",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 139,
+    "properties": [
+      {
+        "propertyName": "Increased projectile speed with Bone Nova",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 143,
+    "properties": [
+      {
+        "propertyName": "Increased projectile speed with Marrow Shards",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Reduced Health Cost of Marrow Shards",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Increased Damage with Marrow Shards",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 108,
+    "properties": [
+      {
+        "propertyName": "Chance to have an additional Riposte after Vengeance",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 318,
+    "properties": [
+      {
+        "propertyName": "Chance to cast Maelstrom every 5 seconds",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": "This will use your Maelstrom tree and does cost you mana."
+      },
+      {
+        "propertyName": "Increased Lightning Damage per Active Maelstrom",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Maelstrom base damage converted to Necrotic",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 1,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Melee Necrotic Damage for Minions when you cast Maelstrom",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": "Buff lasts for the maximum duration of Maelstrom"
+      }
+    ]
+  },
+  {
+    "abilityID": 294,
+    "properties": [
+      {
+        "propertyName": "Static Charges Generated per Second",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 354,
+    "properties": [
+      {
+        "propertyName": "More damage to ignited enemies with Smelter's Wrath",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Increased damage with Smelter's Wrath",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Melee Fire Damage with Smelter's Wrath per Forged Weapon",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 215,
+    "properties": [
+      {
+        "propertyName": "Melee cold damage in Werebear Form",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Increased skill mana cost in Werebear Form",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "White Fur in Werebear Form",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Rage Gained on Kill in Werebear Form",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Increased Melee Damage per Strength in Werebear Form",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Reduced Armor per Strength in Werebear Form",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 87,
+    "properties": [
+      {
+        "propertyName": "Iincreased area of Void Rifts",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Void damage dealt by Void Rifts",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 19,
+    "properties": [
+      {
+        "propertyName": "Critical Strike Chance with Swipe",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": "This also affects Werebear Swipe"
+      },
+      {
+        "propertyName": "Melee Lightning Damage with Swipe (3 second cooldown)",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 39,
+    "properties": [
+      {
+        "propertyName": "Lightning Blast Base Damage Converted to Cold",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 1,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 250,
+    "properties": [
+      {
+        "propertyName": "Mana Gained when you use Rive and hit at least one enemy",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": "You do not gain mana when an echo uses Rive"
+      }
+    ]
+  },
+  {
+    "abilityID": 251,
+    "properties": [
+      {
+        "propertyName": "Mana Gained when you use Rive and hit at least one enemy",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": "You do not gain mana when an echo uses Rive"
+      }
+    ]
+  },
+  {
+    "abilityID": 185,
+    "properties": [
+      {
+        "propertyName": "Mana Gained when you use Harvest",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Damage dealt by Harvest Leeched as Health",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 1,
+        "displayAddedAsTenthOfValue": 1,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Chance to cast Jade Dust on Hit with Harvest ",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": "(Jade Dust is a non-stacking buff that grants your minions 50% chance to poison, tripled for throwing attacks. Lasts 4 seconds.) "
+      },
+      {
+        "propertyName": "Gain Harvest big hit stacks when you hit an enemy",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Mana consumed by Grim Harvest",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Current Health consumed by Grim Harvest",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 1,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 0,
+    "properties": []
+  },
+  {
+    "abilityID": 270,
+    "properties": [
+      {
+        "propertyName": "Mana Gained when you use Tempest Strike",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Chance to summon a Storm Totem on hit with Tempest Strike",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Lightning damage if Tempest Strike has Lightning Strike recently",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": "Stacks up to 3 times."
+      },
+      {
+        "propertyName": "Adaptive Spell Damage with Tempest Strike",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 156,
+    "properties": [
+      {
+        "propertyName": "Increased Flame Reave Travel Speed",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": "Also increases the range of Flame Reave"
+      },
+      {
+        "propertyName": "Flame Reave Mana Cost",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Flame Reave is a circle",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": "Reduces range by 35%"
+      }
+    ]
+  },
+  {
+    "abilityID": 195,
+    "properties": [
+      {
+        "propertyName": "Storm Totem can hit allies to heal for 21",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Storm Totem can hit allies to grant 21 ward",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Cold resistance to allies nearby Storm Totem",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Lightning resistance to allies nearby Storm Totem",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Physical resistance to allies nearby Storm Totem",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Increased aura area of Storm Totem",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Storm Totem frenzy you on hit",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Storm Totem haste you on hit",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Storm Totem enrages companions on hit",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Lightning damage to spells and attacks when you are hit by Lightning from Storm Totem for 4 seconds. (stacks up to 3 times)",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 263,
+    "properties": [
+      {
+        "propertyName": "Projectiles with Shurikens",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": "Only affects the Rogue skill Shurikens"
+      },
+      {
+        "propertyName": "Chance to Bleed on Hit with Shurikens",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Lightning Damage with Shurikens",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 224,
+    "properties": [
+      {
+        "propertyName": "Critical Strike Chance with the Third Strike of Flurry",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Critical Strike Chance with Flurry",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Increased Critical Strike chance with Flurry",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Arrows with Flurry while using a Bow",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": "Additional arrows cannot hit the same target as the first"
+      }
+    ]
+  },
+  {
+    "abilityID": 340,
+    "properties": [
+      {
+        "propertyName": "Reduced Shift Distance",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": "Multiplicative with nodes on the Shift Tree"
+      },
+      {
+        "propertyName": "Increased Cooldown Recovery Speed for Shift",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Ward gained when you use Shift",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 379,
+    "properties": [
+      {
+        "propertyName": "Maximum Ballistae",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": "Only affects the Rogue's Summon Ballista skill"
+      },
+      {
+        "propertyName": "Increased Ballista attack speed",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Bow physical damage for Ballistae",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 469,
+    "properties": [
+      {
+        "propertyName": "Maximum Shadows",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Health Gained on Shadow Creation",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Increased Damage dealt by skills used by Shadows",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Ward Gained on Shadow Creation",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 440,
+    "properties": [
+      {
+        "propertyName": "Bleed chance with Puncture",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Physical Penetration with Puncture",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Bleed and Poison Chance converted to Frostbite Chance with Puncture",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 1,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Puncture cannot be dodged",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "More Hit Damage to Distant Enemies with Puncture",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": "scales linearly from 0% right next to you up to its maximum value at 15 metres away"
+      }
+    ]
+  },
+  {
+    "abilityID": 468,
+    "properties": [
+      {
+        "propertyName": "More damage with Lethal Mirage",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Mana efficiency with Lethal Mirage",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Mirages created by Lethal Mirage",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Increased Area of mirage attacks with Lethal Mirage",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": "This does not increased the area in which mirages appear in."
+      },
+      {
+        "propertyName": "Lightning Damage with Lethal Mirage",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "increased Cooldown Recovery Speed with Lethal Mirage",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 478,
+    "properties": [
+      {
+        "propertyName": "More damage with Synchronized Strike",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Mana efficiency for Synchronized Strike",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 377,
+    "properties": [
+      {
+        "propertyName": "Arrows with Multishot",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Enemies Pierced by Multishot",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Increased Damage per arrow with Multishot",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "more hit damage to Blinded Enemies with Multishot",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 341,
+    "properties": [
+      {
+        "propertyName": "increased Area with Detonating Arrow",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 479,
+    "properties": [
+      {
+        "propertyName": "increased Area with Hail of Arrows",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Critical Strike Chance gained as Increased Damage Over Time with Hail of Arrows",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "increased Hail of Arrows Duration",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Hail of Arrows Damage converted to Poison",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 1,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Chance to Bleed on Hit gained as Bleed Chance per second with Hail of Arrows",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 1,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": "If bleed chance for Hail of Arrows is converted to ignite or poison chance then this added bleed chance is also converted, but still depends on your chance to bleed on hit, not your chance to ignite or poison on hit."
+      },
+      {
+        "propertyName": "Hail of Arrows Mana Cost",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": "If Hail of Arrows is channeled this does not affect the channel cost"
+      }
+    ]
+  },
+  {
+    "abilityID": 481,
+    "properties": [
+      {
+        "propertyName": "Culling with Cinder Strike",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Increased area with the first attack of Cinder Strike",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 405,
+    "properties": [
+      {
+        "propertyName": "Black Arrow Ready",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Black Arrows Dropped By Dark Quiver",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 450,
+    "properties": [
+      {
+        "propertyName": "Increased Area with Dancing Strikes",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Melee Critical Strike Chance while in Dancing Strikes' Fighting Arena",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 50,
+    "properties": [
+      {
+        "propertyName": "Increased area of effect with Acid Flask",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Chance to Summon a Bee with Acid Flask",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 214,
+    "properties": [
+      {
+        "propertyName": "Increased Area with Shadow Cascade",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Increased Damage with Shadow Cascade per Active Shadow",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 445,
+    "properties": [
+      {
+        "propertyName": "Mana efficiency for Decoy",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Increased Decoy Duration",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Increased Cooldown Recovery Speed for Decoy",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 473,
+    "properties": [
+      {
+        "propertyName": "Ward gained when you use Smoke Bomb",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 61,
+    "properties": [
+      {
+        "propertyName": "Chance to Summon a Primal Serpent on kill with Serpent Strike",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": "Primal Serpents are melee minions that poison on hit. They have an unlimited duration, but do not regenerate health. You are limited to one Primal Serpent at a time."
+      }
+    ]
+  },
+  {
+    "abilityID": 517,
+    "properties": [
+      {
+        "propertyName": "Increased Area with Decimate",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Chance to cast Decimate when you use a Fire Spell (4 second cooldown)",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": "Cooldown can only be reduced by set bonus, not other stats."
+      },
+      {
+        "propertyName": "Chance to cast Decimate when you use a Cold Spell (4 second cooldown)",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": "Cooldown can only be reduced by set bonus, not other stats."
+      },
+      {
+        "propertyName": "Chance to cast Decimate when you use a Lightning Spell (4 second cooldown)",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": "Cooldown can only be reduced by set bonus, not other stats."
+      },
+      {
+        "propertyName": "Cooldown Reduction for Decimate",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": "Reduces the cooldown for proccing Decimate"
+      }
+    ]
+  },
+  {
+    "abilityID": 505,
+    "properties": [
+      {
+        "propertyName": "Warcry Converted To Cold",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 339,
+    "properties": [
+      {
+        "propertyName": "Chance to use Earthquake after using a Non-Channelled Movement Ability every 5 seconds",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Earthquake Converted To Fire",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 8,
+    "properties": [
+      {
+        "propertyName": "Chance to Bleed on Hit for Squirrels",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Chance to Shred Physical Resistance on Hit for Squirrels",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Summon 2 squirrels in place of each wolf",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 510,
+    "properties": [
+      {
+        "propertyName": "Adaptive Spell Damage for Storm Crows",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Increased attack, cast, and movement speed for Storm Crows",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 408,
+    "properties": [
+      {
+        "propertyName": "increased Volatile Zombie Movement Speed",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "increased Volatile Zombie Damage",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "increased Volatile Zombie Explosion Area",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 17,
+    "properties": [
+      {
+        "propertyName": "Increased Cooldown Recovery Speed for Fury Leap",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 179,
+    "properties": [
+      {
+        "propertyName": "Increased Cooldown Recovery Speed for Teleport",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 154,
+    "properties": [
+      {
+        "propertyName": "Increased Cooldown Recovery Speed for Lunge",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Missing Health Restored on Lunge",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Lunge Does Not Require a Target",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 504,
+    "properties": [
+      {
+        "propertyName": "Increased Cooldown Recovery Speed for Surge",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 7,
+    "properties": [
+      {
+        "propertyName": "Meteor Base Damage Converted to Lightning",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 1,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 402,
+    "properties": [
+      {
+        "propertyName": "More damage with Void Cleave",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Charge for Void Cleave",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Increased area with Void Cleave",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 22,
+    "properties": [
+      {
+        "propertyName": "Chance to shred fire resistance each second with Tornado",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 536,
+    "properties": [
+      {
+        "propertyName": "Lightning Throwing Damage with Javelin",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Increased Cooldown Recovery Speed for Javelin",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": "Has no effect unless Javelin has been given a cooldown"
+      },
+      {
+        "propertyName": "Javelin Damage Converted To Lightning",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 1,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": "Includes all base and added damage"
+      },
+      {
+        "propertyName": "Spell Lightning Damage for 4 seconds when you use Javelin",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": "This effect stacks"
+      }
+    ]
+  },
+  {
+    "abilityID": 65,
+    "properties": [
+      {
+        "propertyName": "Tendrils with Static Orb",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 533,
+    "properties": [
+      {
+        "propertyName": "Chance for an additional sword with Multistrike at maximum Armament Stacks",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Mana Gained when you use Multistrike and hit at least one enemy",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": "You do not gain mana when an echo uses Multistrike or Multistrike is triggered by blocking"
+      },
+      {
+        "propertyName": "Chance to cast Smite after you use Multistrike and hit a Boss or Rare enemy",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": "Casts smite at the enemy hit. Extra chance above 100% has no effect."
+      }
+    ]
+  },
+  {
+    "abilityID": 565,
+    "properties": [
+      {
+        "propertyName": "Max Prism Shards",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 560,
+    "properties": [
+      {
+        "propertyName": "Projectiles with Spirit Thorns",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 227,
+    "properties": [
+      {
+        "propertyName": "When you directly cast Summon Vines you teleport to the target location",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Seconds Cooldown Duration for Summon Vines",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Increased Attack and Cast Speed for Summoned Vines",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Summoned Vines are Immune to Poison",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Increased Vines Summoned when you directly cast Summon Vines",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 582,
+    "properties": [
+      {
+        "propertyName": "Increased attack, cast, and movement speed for Locusts",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Armor for Locusts",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Melee Physical Damage for Locusts",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": "Locusts are minions that can be summoned in Swarmblade Form and modified through its tree"
+      },
+      {
+        "propertyName": "Armour Shred Chance for Locusts",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": "Each stack of armour shred reduces armour by 100, increasing damage taken from all hits. Can reduce armour below 0."
+      }
+    ]
+  },
+  {
+    "abilityID": 24,
+    "properties": [
+      {
+        "propertyName": "Increased Area with Thorn Shield",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": "Thorn Shield is an active skill in Spriggan Form"
+      }
+    ]
+  },
+  {
+    "abilityID": 220,
+    "properties": [
+      {
+        "propertyName": "Maximum Forged Weapons",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": "Forged Weapons can be summoned by Forge Strike and modified by its tree"
+      },
+      {
+        "propertyName": "Increased Fire Damage per Forged Weapon",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Increased Armour per Forged Weapon",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      },
+      {
+        "propertyName": "Health Regen per Forged Weapon",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      },
+      {
+        "propertyName": "Ignite Chance per Forged Weapon",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 559,
+    "properties": [
+      {
+        "propertyName": "Melee Physical Damage with Swarm Strike",
+        "roundAddedToInt": 1,
+        "displayAddedAsPercentage": 0,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": "Also applies to Locust Swarm even if Locust Swarm has been converted to scale with minion stats"
+      }
+    ]
+  },
+  {
+    "abilityID": 550,
+    "properties": [
+      {
+        "propertyName": "Chance to create a Shockwave on hit with Upheaval",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": "Only applies when Upheaval hits an enemy. This chance is additive with Shockwave chance from Upheaval's Tree. The Shockwave cannot hit enemies already hit by Upheaval."
+      }
+    ]
+  },
+  {
+    "abilityID": 562,
+    "properties": [
+      {
+        "propertyName": "Increased Damage with Umbral Blades per stack of Dusk Shroud",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 1,
+        "altText": null
+      }
+    ]
+  },
+  {
+    "abilityID": 206,
+    "properties": [
+      {
+        "propertyName": "Critical Strike Chance with Rampage",
+        "roundAddedToInt": 0,
+        "displayAddedAsPercentage": 1,
+        "displayAsPercentageOf": 0,
+        "displayAddedAsTenthOfValue": 0,
+        "displayAsAddedTo": 0,
+        "dontDisplayPlus": 0,
+        "altText": "Rampage is a Werebear Form ability. This stat also affects sub skills of Rampage such as the Lightning added by the Crackling Assault node."
+      }
+    ]
+  }
+]

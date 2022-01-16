@@ -1,0 +1,33 @@
+.player-class-badge {
+    border-radius: var(--lumo-border-radius);
+    padding: var(--lumo-space-xs);
+    text-transform: uppercase;
+    font-size: var(--lumo-font-size-xs);
+    width: max-content;
+    height: max-content;
+}
+
+.player-class-badge[player-class~="mage"] {
+    color: var(--mage-color);
+    background-color: var(--mage-shade-color);
+}
+
+.player-class-badge[player-class~="acolyte"] {
+    color: var(--acolyte-color);
+    background-color: var(--acolyte-shade-color);
+}
+
+.player-class-badge[player-class~="primalist"] {
+    color: var(--primalist-color);
+    background-color: var(--primalist-shade-color);
+}
+
+.player-class-badge[player-class~="sentinel"] {
+    color: var(--sentinel-color);
+    background-color: var(--sentinel-shade-color);
+}
+
+.player-class-badge[player-class~="rogue"]{
+    color: var(--rogue-color);
+    background-color: var(--rogue-shade-color);
+}
