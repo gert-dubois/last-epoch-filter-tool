@@ -2,8 +2,7 @@ package com.kuansoft.le.affix;
 
 public enum AffixModifier {
     ADDED("Added", "Reduced"),
-    INCREASED("Increased", "Decreased"),
-    MORE("More", "Less");
+    INCREASED("Increased", "Decreased");
 
     private final String positive;
     private final String negative;

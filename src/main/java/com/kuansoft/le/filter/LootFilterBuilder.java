@@ -86,28 +86,35 @@ public class LootFilterBuilder {
     }
 
     private void addShatterRules(LootFilter lootFilter) {
-        lootFilter.addRule(LootFilterRule.create()
-                .setHighlight(14)
-                .setEnabled(false)
-                .makeEmphasized()
-                .addConditions(AffixLootFilterCondition.create()
-                        .tiersMoreOrEqualTo(5)
-                        .addAffixes(Sets.difference(shatterAffixes, targetAffixes))));
+        Sets.SetView<Affix> shatterDifference = Sets.difference(shatterAffixes, targetAffixes);
+        if(!shatterDifference.isEmpty()) {
+            lootFilter.addRule(LootFilterRule.create()
+                    .overrideName("items with a shatter affix you are not actively searching for")
+                    .setHighlight(14)
+                    .setEnabled(false)
+                    .makeEmphasized()
+                    .addConditions(AffixLootFilterCondition.create()
+                            .tiersMoreOrEqualTo(5)
+                            .addAffixes(shatterDifference)));
+        }
 
     }
 
     private void addIdolRules(LootFilter lootFilter) {
-        lootFilter.addRule(LootFilterRule.create()
-                .setHighlight(15)
-                .addConditions(SubTypeLootFilterCondition.create()
-                        .allIdols())
-                .addConditions(AffixLootFilterCondition.create()
-                        .addAffixes(targetIdolAffixes)));
+        if(!targetIdolAffixes.isEmpty()) {
+            lootFilter.addRule(LootFilterRule.create()
+                    .setHighlight(15)
+                    .addConditions(SubTypeLootFilterCondition.create()
+                            .allIdols())
+                    .addConditions(AffixLootFilterCondition.create()
+                            .addAffixes(targetIdolAffixes)));
+        }
     }
 
     private void addSuppressionRules(LootFilter lootFilter) {
         if(!suppressedEquipmentTypes.isEmpty()) {
             lootFilter.addRule(LootFilterRule.create()
+                    .overrideName("all unwanted base items")
                     .setHidden()
                     .makeLevelDependent(10, 100)
                     .addConditions(SubTypeLootFilterCondition.create()
@@ -115,7 +122,7 @@ public class LootFilterBuilder {
             );
         }
         for (Map.Entry<EquipmentBaseType, Set<EquipmentSubType>> entry : suppressedEquipmentSubTypes.entrySet()) {
-            lootFilter.addRule(LootFilterRule.create()
+            lootFilter.addRule(LootFilterRule.create().overrideName("all unwanted sub types of " + entry.getKey().getName())
                     .setHidden()
                     .makeLevelDependent(10, 100)
                     .addConditions(SubTypeLootFilterCondition.create()
@@ -125,6 +132,7 @@ public class LootFilterBuilder {
         Sets.SetView<PlayerClass> suppressedClasses = Sets.difference(Set.of(PlayerClass.values()), selectedClasses);
         if(!suppressedClasses.isEmpty()) {
             lootFilter.addRule(LootFilterRule.create()
+                    .overrideName("all items only usable by unwanted classes")
                     .setHidden()
                     .addConditions(ClassLootFilterCondition.create()
                             .addClasses(suppressedClasses)));
@@ -132,35 +140,39 @@ public class LootFilterBuilder {
     }
 
     private void addStarterItemRules(LootFilter lootFilter) {
-        lootFilter.addRule(LootFilterRule.create()
-                .setHighlight(13)
-                .addConditions(AffixLootFilterCondition.create()
-                        .addAffixes(targetAffixes)));
-        lootFilter.addRule(LootFilterRule.create()
-                .setHighlight(17)
-                .addConditions(AffixLootFilterCondition.create()
-                        .tiersMoreOrEqualTo(3)
-                        .addAffixes(targetAffixes)));
-        lootFilter.addRule(LootFilterRule.create()
-                .setHighlight(3)
-                .addConditions(AffixLootFilterCondition.create()
-                        .tiersMoreOrEqualTo(5)
-                        .addAffixes(targetAffixes)));
+        if(!targetAffixes.isEmpty()) {
+            lootFilter.addRule(LootFilterRule.create()
+                    .setHighlight(13)
+                    .addConditions(AffixLootFilterCondition.create()
+                            .addAffixes(targetAffixes)));
+            lootFilter.addRule(LootFilterRule.create()
+                    .setHighlight(17)
+                    .addConditions(AffixLootFilterCondition.create()
+                            .tiersMoreOrEqualTo(3)
+                            .addAffixes(targetAffixes)));
+            lootFilter.addRule(LootFilterRule.create()
+                    .setHighlight(3)
+                    .addConditions(AffixLootFilterCondition.create()
+                            .tiersMoreOrEqualTo(5)
+                            .addAffixes(targetAffixes)));
+        }
     }
 
     private void addLateGameItemRules(LootFilter lootFilter) {
-        lootFilter.addRule(LootFilterRule.create()
-                .setHighlight(5)
-                .addConditions(AffixLootFilterCondition.create()
-                        .minimumAffixesOnItem(2)
-                        .combinedTiersMoreOrEqualTo(8)
-                        .addAffixes(targetAffixes)));
-        lootFilter.addRule(LootFilterRule.create()
-                .setHighlight(7)
-                .addConditions(AffixLootFilterCondition.create()
-                        .minimumAffixesOnItem(2)
-                        .combinedTiersMoreOrEqualTo(12)
-                        .addAffixes(targetAffixes)));
+        if(!targetAffixes.isEmpty()) {
+            lootFilter.addRule(LootFilterRule.create()
+                    .setHighlight(5)
+                    .addConditions(AffixLootFilterCondition.create()
+                            .minimumAffixesOnItem(2)
+                            .combinedTiersMoreOrEqualTo(8)
+                            .addAffixes(targetAffixes)));
+            lootFilter.addRule(LootFilterRule.create()
+                    .setHighlight(7)
+                    .addConditions(AffixLootFilterCondition.create()
+                            .minimumAffixesOnItem(2)
+                            .combinedTiersMoreOrEqualTo(12)
+                            .addAffixes(targetAffixes)));
+        }
     }
 
     private void addLowLevelRules(LootFilter lootFilter) {
@@ -178,36 +190,53 @@ public class LootFilterBuilder {
                 .setHidden()
                 .addConditions(RarityLootFilterCondition.create()
                         .addRarities(NORMAL, MAGIC, RARE)));
+        Sets.SetView<Affix> shatterIntersection = Sets.intersection(shatterAffixes, targetAffixes);
+        if(!shatterIntersection.isEmpty()) {
+            lootFilter.addRule(LootFilterRule.create()
+                    .overrideName("other items with a shatter affix")
+                    .setHighlight(14)
+                    .setEnabled(false)
+                    .makeEmphasized()
+                    .addConditions(AffixLootFilterCondition.create()
+                            .tiersMoreOrEqualTo(5)
+                            .addAffixes(shatterIntersection)));
+        }
     }
 
     private void addExaltedFilters(LootFilter lootFilter) {
         lootFilter.addRule(LootFilterRule.create()
+                .overrideName("all other unique/set/exalted items")
                 .setShown()
                 .addConditions(RarityLootFilterCondition.create()
                         .addRarities(UNIQUE, SET, EXALTED)));
-        lootFilter.addRule(LootFilterRule.create()
-                .setHighlight(5)
-                .makeEmphasized()
-                .addConditions(RarityLootFilterCondition.create()
-                        .addRarities(EXALTED))
-                .addConditions(AffixLootFilterCondition.create()
-                        .minimumAffixesOnItem(2)
-                        .combinedTiersMoreOrEqualTo(8)
-                        .addAffixes(targetAffixes)));
-        lootFilter.addRule(LootFilterRule.create()
-                .setHighlight(7)
-                .makeEmphasized()
-                .addConditions(RarityLootFilterCondition.create()
-                        .addRarities(EXALTED))
-                .addConditions(AffixLootFilterCondition.create()
-                        .minimumAffixesOnItem(2)
-                        .combinedTiersMoreOrEqualTo(12)
-                        .addAffixes(targetAffixes)));
-        lootFilter.addRule(LootFilterRule.create()
-                .setShown()
-                .addConditions(ClassLootFilterCondition.create()
-                        .addClasses(Sets.difference(Set.of(PlayerClass.values()), selectedClasses)))
-                .addConditions(RarityLootFilterCondition.create()
-                        .addRarities(EXALTED)));
+        if(!targetAffixes.isEmpty()) {
+            lootFilter.addRule(LootFilterRule.create()
+                    .overrideName("exalted items you can use with >=8 wanted affixes tiers")
+                    .setHighlight(5)
+                    .makeEmphasized()
+                    .addConditions(RarityLootFilterCondition.create()
+                            .addRarities(EXALTED))
+                    .addConditions(AffixLootFilterCondition.create()
+                            .minimumAffixesOnItem(2)
+                            .combinedTiersMoreOrEqualTo(8)
+                            .addAffixes(targetAffixes)));
+            lootFilter.addRule(LootFilterRule.create()
+                    .overrideName("exalted items you can use with >=12 wanted affixes tiers")
+                    .setHighlight(7)
+                    .makeEmphasized()
+                    .addConditions(RarityLootFilterCondition.create()
+                            .addRarities(EXALTED))
+                    .addConditions(AffixLootFilterCondition.create()
+                            .minimumAffixesOnItem(2)
+                            .combinedTiersMoreOrEqualTo(12)
+                            .addAffixes(targetAffixes)));
+            lootFilter.addRule(LootFilterRule.create()
+                    .overrideName("all exalted items only usable by unwanted classes")
+                    .setShown()
+                    .addConditions(ClassLootFilterCondition.create()
+                            .addClasses(Sets.difference(Set.of(PlayerClass.values()), selectedClasses)))
+                    .addConditions(RarityLootFilterCondition.create()
+                            .addRarities(EXALTED)));
+        }
     }
 }

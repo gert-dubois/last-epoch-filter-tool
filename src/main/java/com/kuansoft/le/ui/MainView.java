@@ -20,6 +20,7 @@ import com.vaadin.flow.component.dependency.CssImport;
 import com.vaadin.flow.component.dependency.JavaScript;
 import com.vaadin.flow.component.details.Details;
 import com.vaadin.flow.component.html.H3;
+import com.vaadin.flow.component.html.H5;
 import com.vaadin.flow.component.icon.VaadinIcon;
 import com.vaadin.flow.component.notification.Notification;
 import com.vaadin.flow.component.notification.NotificationVariant;
@@ -121,6 +122,7 @@ public class MainView extends AppLayout implements HasStyle {
 
     private void setupPageHeader() {
         Component header = new H3("Last Epoch Filter Tool");
+        Component version = new H5("v0.8.5");
         Button copyToClipboardButton = new Button("To Clipboard", VaadinIcon.COPY_O.create());
         copyToClipboardButton.addThemeVariants(ButtonVariant.LUMO_PRIMARY);
         copyToClipboardButton.addThemeVariants(ButtonVariant.LUMO_SMALL);
@@ -131,7 +133,8 @@ public class MainView extends AppLayout implements HasStyle {
                             .addThemeVariants(NotificationVariant.LUMO_PRIMARY));
         });
         HorizontalLayout navContainer = new HorizontalLayout();
-        navContainer.addAndExpand(header);
+        navContainer.add(header);
+        navContainer.addAndExpand(version);
         navContainer.add(copyToClipboardButton);
         navContainer.setAlignItems(FlexComponent.Alignment.CENTER);
         navContainer.addClassName("navigation");

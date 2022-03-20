@@ -6,7 +6,7 @@
     "subTypes": [
       {
         "id": 0,
-        "name": "Leatherbound Tome",
+        "name": "Reliquary Text",
         "classRequirement": [],
         "implicits": [
           {
@@ -32,7 +32,7 @@
       },
       {
         "id": 2,
-        "name": "Stained Tome",
+        "name": "Reliquary Grimoire",
         "classRequirement": [],
         "implicits": [
           {
@@ -276,7 +276,7 @@
       },
       {
         "id": 20,
-        "name": "Runic Tome",
+        "name": "Runic Scroll",
         "classRequirement": [
           "MAGE"
         ],
@@ -336,7 +336,7 @@
       },
       {
         "id": 24,
-        "name": "Ancient Tome",
+        "name": "Ancient Scroll",
         "classRequirement": [
           "MAGE"
         ],
@@ -362,7 +362,7 @@
       },
       {
         "id": 26,
-        "name": "Warding Tome",
+        "name": "Warding Scroll",
         "classRequirement": [
           "MAGE"
         ],
@@ -2328,7 +2328,7 @@
         "classRequirement": [],
         "implicits": [
           {
-            "property": "Mana Regen",
+            "property": "Mana Regeneration",
             "type": "INCREASED"
           },
           {
@@ -2961,7 +2961,7 @@
     "subTypes": [
       {
         "id": 0,
-        "name": "Tattered Scroll",
+        "name": "Glass Catalyst",
         "classRequirement": [],
         "implicits": [
           {
@@ -2972,7 +2972,7 @@
       },
       {
         "id": 1,
-        "name": "Skull Lantern",
+        "name": "Leatherbound Tome",
         "classRequirement": [],
         "implicits": [
           {
@@ -2980,14 +2980,14 @@
             "type": "ADDED"
           },
           {
-            "property": "Critical Strike Chance",
-            "type": "ADDED"
+            "property": "Cast Speed",
+            "type": "INCREASED"
           }
         ]
       },
       {
         "id": 2,
-        "name": "Copper Aegis",
+        "name": "Ritual Stone",
         "classRequirement": [],
         "implicits": [
           {
@@ -3002,7 +3002,7 @@
       },
       {
         "id": 3,
-        "name": "Ashen Skull",
+        "name": "Branded Skull",
         "classRequirement": [],
         "implicits": [
           {
@@ -3017,7 +3017,7 @@
       },
       {
         "id": 4,
-        "name": "Brass Aegis",
+        "name": "Sapphire Tome",
         "classRequirement": [],
         "implicits": [
           {
@@ -3025,14 +3025,14 @@
             "type": "ADDED"
           },
           {
-            "property": "Ward per Second",
-            "type": "ADDED"
+            "property": "Cast Speed",
+            "type": "INCREASED"
           }
         ]
       },
       {
         "id": 5,
-        "name": "Unread Scroll",
+        "name": "Osprix Skull",
         "classRequirement": [],
         "implicits": [
           {
@@ -3047,7 +3047,7 @@
       },
       {
         "id": 6,
-        "name": "Bloodrust Aegis",
+        "name": "Rune Stone",
         "classRequirement": [],
         "implicits": [
           {
@@ -3057,6 +3057,116 @@
           {
             "property": "Ward per Second",
             "type": "ADDED"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Astrolabe",
+        "classRequirement": [],
+        "implicits": [
+          {
+            "property": "Intelligence",
+            "type": "ADDED"
+          },
+          {
+            "property": "Mana Spent Gained as Ward",
+            "type": "ADDED"
+          },
+          {
+            "property": "Mana Regeneration",
+            "type": "INCREASED"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Opulent Focus",
+        "classRequirement": [],
+        "implicits": [
+          {
+            "property": "Intelligence",
+            "type": "ADDED"
+          },
+          {
+            "property": "Ward per Second",
+            "type": "ADDED"
+          },
+          {
+            "property": "Ward Retention",
+            "type": "ADDED"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Dragon Eye",
+        "classRequirement": [],
+        "implicits": [
+          {
+            "property": "Intelligence",
+            "type": "ADDED"
+          },
+          {
+            "property": "Spell Critical Strike Multiplier",
+            "type": "ADDED"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Fleshbound Tome",
+        "classRequirement": [],
+        "implicits": [
+          {
+            "property": "Intelligence",
+            "type": "ADDED"
+          },
+          {
+            "property": "Minion Damage",
+            "type": "INCREASED"
+          },
+          {
+            "property": "Minion Health",
+            "type": "INCREASED"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Crystal Skull",
+        "classRequirement": [],
+        "implicits": [
+          {
+            "property": "Intelligence",
+            "type": "ADDED"
+          },
+          {
+            "property": "Spell Critical Strike Chance",
+            "type": "ADDED"
+          },
+          {
+            "property": "Ward Retention",
+            "type": "ADDED"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Chronolabe",
+        "classRequirement": [],
+        "implicits": [
+          {
+            "property": "Intelligence",
+            "type": "ADDED"
+          },
+          {
+            "property": "Mana Spent Gained as Ward",
+            "type": "ADDED"
+          },
+          {
+            "property": "Mana Regen",
+            "type": "INCREASED"
           }
         ]
       }
@@ -3177,7 +3287,7 @@
       },
       {
         "id": 10,
-        "name": "Death Mask",
+        "name": "Fiend Cowl",
         "classRequirement": [
           "ACOLYTE"
         ],
@@ -3224,7 +3334,7 @@
       },
       {
         "id": 13,
-        "name": "Ivory Mask",
+        "name": "Revenant Cowl",
         "classRequirement": [
           "ACOLYTE"
         ],
@@ -3234,14 +3344,14 @@
             "type": "ADDED"
           },
           {
-            "property": "Damage",
+            "property": "Minion Damage",
             "type": "INCREASED"
           }
         ]
       },
       {
         "id": 14,
-        "name": "Profane Mask",
+        "name": "Burial Mask",
         "classRequirement": [
           "ACOLYTE"
         ],
@@ -3251,14 +3361,14 @@
             "type": "ADDED"
           },
           {
-            "property": "Damage",
+            "property": "Spell Damage",
             "type": "INCREASED"
           }
         ]
       },
       {
         "id": 15,
-        "name": "Burial Mask",
+        "name": "Profane Mask",
         "classRequirement": [
           "ACOLYTE"
         ],
@@ -3490,7 +3600,7 @@
         ],
         "implicits": [
           {
-            "property": "Mana Regen",
+            "property": "Mana Regeneration",
             "type": "INCREASED"
           },
           {
@@ -3595,18 +3705,22 @@
       },
       {
         "id": 36,
-        "name": "Bronze Helm",
+        "name": "Winged Helm",
         "classRequirement": [
           "SENTINEL"
         ],
         "implicits": [
           {
-            "property": "Lightning Resistance",
+            "property": "Armor",
             "type": "ADDED"
           },
           {
-            "property": "Armor",
-            "type": "ADDED"
+            "property": "Throwing Attack Speed",
+            "type": "INCREASED"
+          },
+          {
+            "property": "Melee Attack Speed",
+            "type": "INCREASED"
           }
         ]
       },
@@ -3629,7 +3743,7 @@
       },
       {
         "id": 38,
-        "name": "Dawn Helm",
+        "name": "Augury Helm",
         "classRequirement": [
           "SENTINEL"
         ],
@@ -3642,7 +3756,7 @@
       },
       {
         "id": 39,
-        "name": "Winged Helm",
+        "name": "Solarium Helm",
         "classRequirement": [
           "SENTINEL"
         ],
@@ -3746,25 +3860,29 @@
             "type": "ADDED"
           },
           {
-            "property": "Dodge Rating",
-            "type": "INCREASED"
+            "property": "Mana",
+            "type": "ADDED"
           }
         ]
       },
       {
         "id": 46,
-        "name": "Dusk Hood",
+        "name": "Outcast Hat",
         "classRequirement": [
           "ROGUE"
         ],
         "implicits": [
           {
-            "property": "Mana",
+            "property": "Armor",
             "type": "ADDED"
           },
           {
-            "property": "Armor",
-            "type": "ADDED"
+            "property": "Bow Attack Speed",
+            "type": "INCREASED"
+          },
+          {
+            "property": "Throwing Attack Speed",
+            "type": "INCREASED"
           }
         ]
       },
@@ -3787,18 +3905,22 @@
       },
       {
         "id": 48,
-        "name": "Blood Cowl",
+        "name": "Exile Hat",
         "classRequirement": [
           "ROGUE"
         ],
         "implicits": [
           {
-            "property": "Damage Leeched as Health",
+            "property": "Armor",
             "type": "ADDED"
           },
           {
-            "property": "Armor",
-            "type": "ADDED"
+            "property": "Throwing Damage",
+            "type": "INCREASED"
+          },
+          {
+            "property": "Bow Damage",
+            "type": "INCREASED"
           }
         ]
       },
@@ -3814,8 +3936,8 @@
             "type": "ADDED"
           },
           {
-            "property": "Damage",
-            "type": "INCREASED"
+            "property": "Damage Leeched as Health on Hit",
+            "type": "ADDED"
           }
         ]
       },
@@ -4009,14 +4131,14 @@
       },
       {
         "id": 12,
-        "name": "Ribbed Cuirass",
+        "name": "Ossuary Robes",
         "classRequirement": [
           "ACOLYTE"
         ],
         "implicits": [
           {
-            "property": "Mana",
-            "type": "ADDED"
+            "property": "Mana Regeneration",
+            "type": "INCREASED"
           },
           {
             "property": "Armor",
@@ -4043,7 +4165,7 @@
       },
       {
         "id": 14,
-        "name": "Profane Armor",
+        "name": "Revenant Robes",
         "classRequirement": [
           "ACOLYTE"
         ],
@@ -4385,7 +4507,7 @@
       },
       {
         "id": 36,
-        "name": "Bronze Cuirass",
+        "name": "Noble Plate",
         "classRequirement": [
           "SENTINEL"
         ],
@@ -4455,7 +4577,7 @@
         ],
         "implicits": [
           {
-            "property": "Mana Regen",
+            "property": "Mana Regeneration",
             "type": "INCREASED"
           },
           {
@@ -4577,7 +4699,7 @@
       },
       {
         "id": 48,
-        "name": "Mercenary Leather",
+        "name": "Exile Coat",
         "classRequirement": [
           "ROGUE"
         ],
@@ -4604,14 +4726,14 @@
             "type": "ADDED"
           },
           {
-            "property": "Dodge Rating",
-            "type": "INCREASED"
+            "property": "Physical Resistance",
+            "type": "ADDED"
           }
         ]
       },
       {
         "id": 50,
-        "name": "Scalebane Armour",
+        "name": "Scalebane Coat",
         "classRequirement": [
           "ROGUE"
         ],
@@ -4623,6 +4745,10 @@
           {
             "property": "Poison Resistance",
             "type": "ADDED"
+          },
+          {
+            "property": "Damage Over Time",
+            "type": "INCREASED"
           }
         ]
       },
@@ -4638,7 +4764,7 @@
             "type": "ADDED"
           },
           {
-            "property": "Damage",
+            "property": "Dodge Rating",
             "type": "INCREASED"
           }
         ]
@@ -6057,7 +6183,7 @@
             "type": "ADDED"
           },
           {
-            "property": "Mana Regen",
+            "property": "Mana Regeneration",
             "type": "INCREASED"
           }
         ]

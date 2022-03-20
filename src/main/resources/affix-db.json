@@ -1821,7 +1821,7 @@
     "classes": [
       "MAGE"
     ],
-    "modifier": "MORE"
+    "modifier": "ADDED"
   },
   {
     "id": 166,
@@ -2994,7 +2994,7 @@
     "classes": [
       "ACOLYTE"
     ],
-    "modifier": "MORE"
+    "modifier": "ADDED"
   },
   {
     "id": 263,
@@ -3340,7 +3340,7 @@
     "classes": [
       "ACOLYTE"
     ],
-    "modifier": "MORE"
+    "modifier": "ADDED"
   },
   {
     "id": 290,
@@ -4687,7 +4687,7 @@
   },
   {
     "id": 427,
-    "name": "Damage Bonus Taken from Critical Strikes",
+    "name": "Less Bonus Damage Taken from Critical Strikes",
     "negative": false,
     "tags": [
       "CRITICAL_STRIKE"
@@ -6531,7 +6531,7 @@
     "classes": [
       "ACOLYTE"
     ],
-    "modifier": "MORE"
+    "modifier": "ADDED"
   },
   {
     "id": 291,

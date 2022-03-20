@@ -63,7 +63,7 @@ public class LootFilterWriter {
         root.addElement("filterIconColor").addText("0");
         root.addElement("description").addText(lootFilter.getDescription());
         root.addElement("name").addText(lootFilter.getName());
-        root.addElement("lastModifiedInVersion").addText("0.8.4g");
+        root.addElement("lastModifiedInVersion").addText("0.8.5");
         root.addElement("lootFilterVersion").addText("2");
         Element rules = root.addElement("rules");
         for (LootFilterRule rule : lootFilter.getRules()) {
