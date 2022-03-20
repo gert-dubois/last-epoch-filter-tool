@@ -1,6 +1,6 @@
 package com.kuansoft.le.game;
 
-public enum Tag {
+public enum Tag implements HasDisplayName {
     MISCELLANEOUS("Miscellaneous"),
     PHYSICAL("Physical"),
     LIGHTNING("Lightning"),
@@ -39,31 +39,8 @@ public enum Tag {
         this.displayName = displayName;
     }
 
+    @Override
     public String getDisplayName() {
         return displayName;
-    }
-
-    public static Tag fromIndex(int tagIndex) {
-        return switch (tagIndex) {
-            case 0 -> MISCELLANEOUS;
-            case 1 -> PHYSICAL;
-            case 2 -> LIGHTNING;
-            case 3 -> COLD;
-            case 4 -> FIRE;
-            case 5 -> VOID;
-            case 6 -> NECROTIC;
-            case 7 -> POISON;
-            case 8 -> ELEMENTAL;
-            case 9 -> SPELL;
-            case 10 -> MELEE;
-            case 11 -> THROWING;
-            case 12 -> BOW;
-            case 13 -> DOT;
-            case 14 -> MINION;
-            case 15 -> TOTEM;
-            case 19 -> CHANNELING;
-            case 20 -> TRANSFORMATION;
-            default -> MISCELLANEOUS;
-        };
     }
 }

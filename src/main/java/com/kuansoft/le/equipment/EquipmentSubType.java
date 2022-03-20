@@ -1,23 +1,21 @@
 package com.kuansoft.le.equipment;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.kuansoft.le.game.HasDisplayName;
 import com.kuansoft.le.game.PlayerClass;
-import com.kuansoft.le.game.PlayerClassDeserializer;
 
+import java.util.Objects;
 import java.util.Set;
 
 public class EquipmentSubType implements HasDisplayName {
 
-    @JsonProperty("subTypeId")
+    @JsonProperty("id")
     private int id;
 
-    @JsonProperty("displayName")
-    private String displayName;
+    @JsonProperty(value = "name")
+    private String name;
 
     @JsonProperty("classRequirement")
-    @JsonDeserialize(using = PlayerClassDeserializer.class)
     private Set<PlayerClass> classRequirements;
 
     @JsonProperty("implicits")
@@ -29,7 +27,7 @@ public class EquipmentSubType implements HasDisplayName {
 
     @Override
     public String getDisplayName() {
-        return displayName;
+        return name;
     }
 
     public Set<PlayerClass> getClassRequirements() {
@@ -48,13 +46,13 @@ public class EquipmentSubType implements HasDisplayName {
         EquipmentSubType that = (EquipmentSubType) o;
 
         if (id != that.id) return false;
-        return displayName != null ? displayName.equals(that.displayName) : that.displayName == null;
+        return Objects.equals(name, that.name);
     }
 
     @Override
     public int hashCode() {
         int result = id;
-        result = 31 * result + (displayName != null ? displayName.hashCode() : 0);
+        result = 31 * result + (name != null ? name.hashCode() : 0);
         return result;
     }
 }

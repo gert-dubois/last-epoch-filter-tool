@@ -7,7 +7,6 @@ import org.springframework.stereotype.Component;
 import org.springframework.util.ResourceUtils;
 
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 
 @Component
@@ -17,10 +16,7 @@ public class AffixRepository {
 
     @Autowired
     public AffixRepository(ObjectMapper objectMapper) throws IOException {
-        AffixDatabase affixDatabase = objectMapper.readValue(ResourceUtils.getURL("classpath:affix-db.json"), AffixDatabase.class);
-        affixes = new ArrayList<>();
-        affixes.addAll(affixDatabase.getSingleAffixes().values());
-        affixes.addAll(affixDatabase.getMultiAffixes().values());
+        affixes = objectMapper.readValue(ResourceUtils.getURL("classpath:affix-db.json"), AffixDatabase.class);
     }
 
     public List<Affix> getAffixes() {

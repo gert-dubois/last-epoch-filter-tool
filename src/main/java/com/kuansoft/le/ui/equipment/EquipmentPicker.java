@@ -8,10 +8,7 @@ import com.kuansoft.le.ui.common.PanelSelector;
 import com.kuansoft.le.ui.common.Selector;
 import com.vaadin.flow.component.Composite;
 
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -23,7 +20,7 @@ public class EquipmentPicker extends Composite<AccordionSelector<EquipmentSubTyp
         this.selectors = new HashMap<>();
     }
 
-    public void setEquipmentTypes(Set<EquipmentBaseType> equipmentTypes) {
+    public void setEquipmentTypes(List<EquipmentBaseType> equipmentTypes) {
         this.selectors.clear();
         getContent().clear();
         getContent().add(createWeaponSelectors(equipmentTypes));
@@ -31,17 +28,17 @@ public class EquipmentPicker extends Composite<AccordionSelector<EquipmentSubTyp
         getContent().add(createIdolSelectors(equipmentTypes));
     }
 
-    private PanelSelector<EquipmentSubType> createIdolSelectors(Set<EquipmentBaseType> equipmentTypes) {
+    private PanelSelector<EquipmentSubType> createIdolSelectors(Collection<EquipmentBaseType> equipmentTypes) {
         AccordionSelector<EquipmentSubType> accordion = createSelectorAccordion(equipmentTypes.stream().filter(EquipmentBaseType::isIdol));
         return new PanelSelector<>("Idols", accordion);
     }
 
-    private PanelSelector<EquipmentSubType> createArmorSelectors(Set<EquipmentBaseType> equipmentTypes) {
+    private PanelSelector<EquipmentSubType> createArmorSelectors(Collection<EquipmentBaseType> equipmentTypes) {
         AccordionSelector<EquipmentSubType> accordion = createSelectorAccordion(equipmentTypes.stream().filter(EquipmentBaseType::isArmor));
         return new PanelSelector<>("Armor", accordion);
     }
 
-    private PanelSelector<EquipmentSubType> createWeaponSelectors(Set<EquipmentBaseType> equipmentTypes) {
+    private PanelSelector<EquipmentSubType> createWeaponSelectors(Collection<EquipmentBaseType> equipmentTypes) {
         AccordionSelector<EquipmentSubType> accordion = createSelectorAccordion(equipmentTypes.stream().filter(EquipmentBaseType::isWeapon));
         return new PanelSelector<>("Weapons", accordion);
     }

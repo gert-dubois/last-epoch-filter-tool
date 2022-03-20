@@ -91,7 +91,7 @@ public class MainView extends AppLayout implements HasStyle {
 
     private void setupEquipmentPicker() {
         Set<Affix> equipmentAffixes = affixRepository.getAffixes().stream()
-                .filter(affix -> affix.getRollsOnIdol() == 0)
+                .filter(affix -> !affix.isRollsOnIdols())
                 .collect(Collectors.toSet());
         equipmentAffixPicker = new AffixPicker(equipmentAffixes);
         setupAffixPicker("Equipment Affixes", equipmentAffixPicker);
@@ -99,7 +99,7 @@ public class MainView extends AppLayout implements HasStyle {
 
     private void setupShatterPicker() {
         Set<Affix> affixes = affixRepository.getAffixes().stream()
-                .filter(affix -> affix.getRollsOnIdol() == 0)
+                .filter(affix -> !affix.isRollsOnIdols())
                 .collect(Collectors.toSet());
         shatterAffixPicker = new AffixPicker(affixes);
         setupAffixPicker("Shatter Affixes", shatterAffixPicker);
@@ -107,7 +107,7 @@ public class MainView extends AppLayout implements HasStyle {
 
     private void setupIdolPicker() {
         Set<Affix> idolAffixes = affixRepository.getAffixes().stream()
-                .filter(affix -> affix.getRollsOnIdol() == 1)
+                .filter(Affix::isRollsOnIdols)
                 .collect(Collectors.toSet());
         idolsAffixPicker = new AffixPicker(idolAffixes);
         setupAffixPicker("Idol Affixes", idolsAffixPicker);

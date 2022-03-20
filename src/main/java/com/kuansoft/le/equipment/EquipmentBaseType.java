@@ -1,5 +1,6 @@
 package com.kuansoft.le.equipment;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.google.common.collect.Sets;
 import com.kuansoft.le.game.HasDisplayName;
@@ -10,23 +11,26 @@ import java.util.Set;
 
 public class EquipmentBaseType implements HasDisplayName {
 
-    @JsonProperty("baseTypeId")
+    public enum Type {
+        ARMOR,
+        WEAPON,
+        IDOL;
+    }
+    @JsonProperty("id")
     private int id;
 
-    @JsonProperty("baseTypeName")
+    @JsonProperty("type")
+    private Type type;
+
+    @JsonProperty("name")
     private String name;
 
-    @JsonProperty("displayName")
-    private String displayName;
+    @JsonProperty(value = "subTypes")
+    private List<EquipmentSubType> subTypes;
 
-    @JsonProperty("isWeapon")
-    private boolean weapon;
-
-    @JsonProperty("subItems")
-    private Map<String, EquipmentSubType> subItemBases;
-
-    @JsonProperty("size")
+    @JsonProperty(value = "size")
     private Map<String, Integer> size;
+
 
     public int getId() {
         return id;
@@ -36,29 +40,38 @@ public class EquipmentBaseType implements HasDisplayName {
         return name;
     }
 
+    @Override
     public String getDisplayName() {
-        if(isIdol()) {
-            return displayName + " (" + size.get("x") + "x" + size.get("y") + ")";
+        if(getType() == Type.IDOL) {
+            return name + " (" + size.get("x") + "x" + size.get("y") + ")";
         }
-        return displayName;
+        return name;
     }
 
+    @JsonIgnore
     public boolean isIdol() {
-        return name.contains("Idol");
+        return getType() == Type.IDOL;
     }
 
+    @JsonIgnore
     public boolean isWeapon() {
-        return weapon;
+        return getType() == Type.WEAPON;
     }
 
+    @JsonIgnore
     public boolean isArmor() {
-        return !isWeapon() && !isIdol();
+        return getType() == Type.ARMOR;
+    }
+
+    public Type getType() {
+        return type;
     }
 
     public List<EquipmentSubType> getSubTypes() {
-        return List.copyOf(subItemBases.values());
+        return subTypes;
     }
 
+    @JsonIgnore
     public Set<EquipmentImplicit> getCommonImplicits() {
         return getSubTypes().stream()
                 .map(EquipmentSubType::getImplicits)

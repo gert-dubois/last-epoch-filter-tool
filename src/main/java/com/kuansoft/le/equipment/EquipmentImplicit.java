@@ -1,37 +1,37 @@
 package com.kuansoft.le.equipment;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
-import com.kuansoft.le.affix.PropertyKeyDeserializer;
+import com.kuansoft.le.game.HasDisplayName;
 
-public class EquipmentImplicit {
+import java.util.Objects;
 
-    public enum Type {
+public class EquipmentImplicit implements HasDisplayName {
+
+    public enum Type implements HasDisplayName {
         ADDED("+"),
         INCREASED("%"),
-        REDUCED("-"),
-        ;
+        REDUCED("-");
 
-        private String displayValue;
+        private final String displayName;
 
-        Type(String displayValue) {
-            this.displayValue = displayValue;
+        Type(String displayName) {
+            this.displayName = displayName;
         }
 
-        public String getDisplayValue() {
-            return displayValue;
+        @Override
+        public String getDisplayName() {
+            return displayName;
         }
     }
-
     @JsonProperty("property")
-    @JsonDeserialize(using = PropertyKeyDeserializer.class)
     private String property;
 
     @JsonProperty("type")
     private Type type;
 
-    public String getProperty() {
-        return type.getDisplayValue()+property;
+    @Override
+    public String getDisplayName() {
+        return type.getDisplayName() + property;
     }
 
     @Override
@@ -41,7 +41,7 @@ public class EquipmentImplicit {
 
         EquipmentImplicit that = (EquipmentImplicit) o;
 
-        return property != null ? property.equals(that.property) : that.property == null;
+        return Objects.equals(property, that.property);
     }
 
     @Override

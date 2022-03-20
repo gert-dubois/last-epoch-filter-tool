@@ -26,7 +26,7 @@ public class EquipmentGridSelector extends GridSelector<EquipmentSubType> {
         super.setItems(items);
         getContent().addColumn(new TextWithClassRenderer<>((subType) -> subType.getImplicits().stream()
                 .filter(implicit -> !suppressedImplicits.contains(implicit))
-                .map(EquipmentImplicit::getProperty)
+                .map(EquipmentImplicit::getDisplayName)
                 .collect(Collectors.joining(" and ")), "implicits"))
                 .setAutoWidth(true)
                 .setFlexGrow(0);

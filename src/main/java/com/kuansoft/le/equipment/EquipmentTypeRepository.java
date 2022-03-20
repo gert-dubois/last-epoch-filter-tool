@@ -7,20 +7,19 @@ import org.springframework.stereotype.Component;
 import org.springframework.util.ResourceUtils;
 
 import java.io.IOException;
-import java.util.Set;
+import java.util.List;
 
 @Component
 public class EquipmentTypeRepository {
 
-    private final Set<EquipmentBaseType> itemBases;
+    private final List<EquipmentBaseType> itemBases;
 
     @Autowired
     public EquipmentTypeRepository(ObjectMapper objectMapper) throws IOException {
-        ItemDatabase itemDatabase = objectMapper.readValue(ResourceUtils.getURL("classpath:item-db.json"), ItemDatabase.class);
-        itemBases = Set.copyOf(itemDatabase.values());
+        itemBases = objectMapper.readValue(ResourceUtils.getURL("classpath:item-db.json"), ItemDatabase.class);
     }
 
-    public Set<EquipmentBaseType> getEquipmentTypes() {
+    public List<EquipmentBaseType> getEquipmentTypes() {
         return itemBases;
     }
 }
