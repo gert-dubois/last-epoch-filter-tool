@@ -8,6 +8,7 @@ import org.springframework.util.ResourceUtils;
 
 import java.io.IOException;
 import java.util.List;
+import java.util.Optional;
 
 @Component
 public class AffixRepository {
@@ -21,5 +22,11 @@ public class AffixRepository {
 
     public List<Affix> getAffixes() {
         return affixes;
+    }
+
+    public Optional<Affix> findAffixById(int id) {
+        return affixes.stream()
+                .filter(affix -> affix.getId() == id)
+                .findFirst();
     }
 }

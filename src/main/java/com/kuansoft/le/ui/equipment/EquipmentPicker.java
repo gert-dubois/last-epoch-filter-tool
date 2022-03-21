@@ -61,22 +61,35 @@ public class EquipmentPicker extends Composite<AccordionSelector<EquipmentSubTyp
         return new PanelSelector<>(equipmentType.getDisplayName(), equipmentGrid);
     }
 
-    public Set<EquipmentBaseType> getAllSuppressedTypes() {
+    public Set<EquipmentBaseType> getNotSelectedBaseTypes() {
         return this.selectors.entrySet().stream()
                 .filter(entry -> entry.getValue().getSelectedItems().isEmpty())
                 .map(Map.Entry::getKey)
                 .collect(Collectors.toSet());
     }
 
-    public Set<EquipmentBaseType> getPartiallySuppressedTypes() {
+    public Set<EquipmentBaseType> getPartiallySelectedBaseTypes() {
         return this.selectors.entrySet().stream()
                 .filter(entry -> !entry.getValue().getSelectedItems().isEmpty() && !entry.getValue().areAllItemsSelected())
                 .map(Map.Entry::getKey)
                 .collect(Collectors.toSet());
     }
 
-    public Set<EquipmentSubType> getSuppressedSubTypes(EquipmentBaseType type) {
+    public Set<EquipmentSubType> getSelectedSubTypes(EquipmentBaseType type) {
+        return this.selectors.get(type)
+                .getSelectedItems();
+    }
+
+    public Set<EquipmentSubType> getNotSelectedSubTypes(EquipmentBaseType type) {
         Selector<EquipmentSubType> selector = this.selectors.get(type);
         return Sets.difference(selector.getItems(), selector.getSelectedItems());
+    }
+
+    public Set<EquipmentBaseType> getBaseTypes() {
+        return selectors.keySet();
+    }
+
+    public void select(EquipmentSubType subType) {
+        getContent().select(subType);
     }
 }

@@ -50,6 +50,10 @@ public class AffixPicker extends Composite<AccordionSelector<Affix>> implements 
         return accordion;
     }
 
+    public void select(Affix affix) {
+        getContent().select(affix);
+    }
+
     public Set<Affix> getSelectedItems() {
         return getContent().getSelectedItems();
     }

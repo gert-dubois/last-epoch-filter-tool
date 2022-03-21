@@ -2,12 +2,13 @@ package com.kuansoft.le.equipment;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.kuansoft.le.game.HasDisplayName;
+import com.kuansoft.le.game.HasId;
 import com.kuansoft.le.game.PlayerClass;
 
 import java.util.Objects;
 import java.util.Set;
 
-public class EquipmentSubType implements HasDisplayName {
+public class EquipmentSubType implements HasDisplayName, HasId {
 
     @JsonProperty("id")
     private int id;
@@ -21,6 +22,7 @@ public class EquipmentSubType implements HasDisplayName {
     @JsonProperty("implicits")
     private Set<EquipmentImplicit> implicits;
 
+    @Override
     public int getId() {
         return id;
     }

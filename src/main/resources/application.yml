@@ -1,15 +1,6 @@
 server:
   port: 8080
-spring:
-  devtools:
-    restart:
-      poll-interval: 2s
-      quiet-period: 1s
-  mustache:
-    check-template-location: false
 vaadin:
   productionMode: true
-  launch-browser: true
-  whitelisted-packages: com.vaadin,org.vaadin,ai.flamix.le
-  pnpm-enabled: true
+  whitelisted-packages: com.vaadin,org.vaadin,com.kuansoft.le
 

@@ -4,12 +4,13 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.google.common.collect.Sets;
 import com.kuansoft.le.game.HasDisplayName;
+import com.kuansoft.le.game.HasId;
 
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-public class EquipmentBaseType implements HasDisplayName {
+public class EquipmentBaseType implements HasDisplayName, HasId {
 
     public enum Type {
         ARMOR,
@@ -31,7 +32,7 @@ public class EquipmentBaseType implements HasDisplayName {
     @JsonProperty(value = "size")
     private Map<String, Integer> size;
 
-
+    @Override
     public int getId() {
         return id;
     }

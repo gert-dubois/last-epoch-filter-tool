@@ -3,12 +3,13 @@ package com.kuansoft.le.affix;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.kuansoft.le.game.HasDisplayName;
+import com.kuansoft.le.game.HasId;
 import com.kuansoft.le.game.PlayerClass;
 import com.kuansoft.le.game.Tag;
 
 import java.util.Set;
 
-public class Affix implements HasDisplayName {
+public class Affix implements HasDisplayName, HasId {
 
     @JsonProperty(value = "id")
     private int id;
@@ -37,6 +38,7 @@ public class Affix implements HasDisplayName {
         return name;
     }
 
+    @Override
     public int getId() {
         return id;
     }

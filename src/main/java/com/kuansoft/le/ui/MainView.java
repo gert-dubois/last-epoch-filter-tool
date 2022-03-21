@@ -1,5 +1,6 @@
 package com.kuansoft.le.ui;
 
+import com.helger.commons.io.stream.StringInputStream;
 import com.kuansoft.le.affix.Affix;
 import com.kuansoft.le.affix.AffixRepository;
 import com.kuansoft.le.equipment.EquipmentBaseType;
@@ -9,34 +10,45 @@ import com.kuansoft.le.filter.LootFilterBuilder;
 import com.kuansoft.le.filter.LootFilterWriter;
 import com.kuansoft.le.game.PlayerClass;
 import com.kuansoft.le.ui.affix.AffixPicker;
+import com.kuansoft.le.ui.common.ClipboardButton;
+import com.kuansoft.le.ui.common.FileDownloadButton;
+import com.kuansoft.le.ui.deser.StateReader;
+import com.kuansoft.le.ui.deser.StateWriter;
 import com.kuansoft.le.ui.equipment.EquipmentPicker;
 import com.kuansoft.le.ui.game.PlayerClassGridSelector;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.HasStyle;
 import com.vaadin.flow.component.applayout.AppLayout;
 import com.vaadin.flow.component.button.Button;
-import com.vaadin.flow.component.button.ButtonVariant;
 import com.vaadin.flow.component.dependency.CssImport;
 import com.vaadin.flow.component.dependency.JavaScript;
 import com.vaadin.flow.component.details.Details;
 import com.vaadin.flow.component.html.H3;
 import com.vaadin.flow.component.html.H5;
-import com.vaadin.flow.component.icon.VaadinIcon;
 import com.vaadin.flow.component.notification.Notification;
 import com.vaadin.flow.component.notification.NotificationVariant;
 import com.vaadin.flow.component.orderedlayout.FlexComponent;
 import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
+import com.vaadin.flow.component.upload.Upload;
+import com.vaadin.flow.component.upload.receivers.MemoryBuffer;
 import com.vaadin.flow.router.Route;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import java.io.InputStream;
+import java.nio.charset.StandardCharsets;
 import java.util.Set;
 import java.util.stream.Collectors;
 
 @Route
 @JavaScript("./clipboard-helper.js")
 @CssImport("./themes/lastepochfiltergenerator/components/main-view.css")
+@CssImport(value = "./themes/lastepochfiltergenerator/components/upload-override.css", themeFor = "vaadin-upload")
 public class MainView extends AppLayout implements HasStyle {
+
+    public static final String GAME_VERSION = "0.8.5";
+    public static final String HEADER = "Last Epoch Filter Tool";
+    public static final String CLIPBOARD_NOTIFICATION = "Filter copied to clipboard";
 
     private final AffixRepository affixRepository;
     private final EquipmentTypeRepository equipmentTypeRepository;
@@ -47,16 +59,22 @@ public class MainView extends AppLayout implements HasStyle {
     private AffixPicker shatterAffixPicker;
     private PlayerClassGridSelector classPicker;
 
-    private final LootFilterWriter writer;
+    private final LootFilterWriter filterWriter;
+    private final StateWriter stateWriter;
+    private final StateReader stateReader;
     private final VerticalLayout configurationContainer;
 
     @Autowired
     public MainView(AffixRepository affixRepository,
                     EquipmentTypeRepository equipmentTypeRepository,
-                    LootFilterWriter writer) {
+                    LootFilterWriter filterWriter,
+                    StateWriter stateWriter,
+                    StateReader stateReader) {
         this.affixRepository = affixRepository;
         this.equipmentTypeRepository = equipmentTypeRepository;
-        this.writer = writer;
+        this.filterWriter = filterWriter;
+        this.stateWriter = stateWriter;
+        this.stateReader = stateReader;
         this.configurationContainer = new VerticalLayout();
         setupPageHeader();
         setContent(configurationContainer);
@@ -121,24 +139,48 @@ public class MainView extends AppLayout implements HasStyle {
     }
 
     private void setupPageHeader() {
-        Component header = new H3("Last Epoch Filter Tool");
-        Component version = new H5("v0.8.5");
-        Button copyToClipboardButton = new Button("To Clipboard", VaadinIcon.COPY_O.create());
-        copyToClipboardButton.addThemeVariants(ButtonVariant.LUMO_PRIMARY);
-        copyToClipboardButton.addThemeVariants(ButtonVariant.LUMO_SMALL);
-        copyToClipboardButton.addClickListener(event -> {
-            String filter = generateLootFilter();
-            getElement().executeJs("window.copyToClipboard($0);", filter)
-                    .then(r -> Notification.show("Filter generated to clipboard", 2000, Notification.Position.TOP_CENTER)
-                            .addThemeVariants(NotificationVariant.LUMO_PRIMARY));
+        Component header = new H3(HEADER);
+        Component version = new H5(GAME_VERSION);
+
+        ClipboardButton copyToClipboardButton = new ClipboardButton(this::generateLootFilter);
+        copyToClipboardButton.addCopySuccessHandler(e -> Notification.show(CLIPBOARD_NOTIFICATION, 2000, Notification.Position.TOP_CENTER)
+                .addThemeVariants(NotificationVariant.LUMO_PRIMARY));
+
+        FileDownloadButton saveButton = new FileDownloadButton("export.json");
+        saveButton.setResource(this::saveState);
+
+        MemoryBuffer buffer = new MemoryBuffer();
+        Upload loadButton = new Upload(buffer);
+        loadButton.setMaxFiles(1);
+        loadButton.setUploadButton(new Button("Load"));
+        loadButton.setDropAllowed(false);
+        loadButton.setAcceptedFileTypes("application/json");
+        loadButton.addAllFinishedListener(event -> {
+            InputStream inputStream = buffer.getInputStream();
+            loadState(inputStream);
+            loadButton.clearFileList();
+            Notification.show("Filter preset restored", 2000, Notification.Position.TOP_CENTER)
+                    .addThemeVariants(NotificationVariant.LUMO_PRIMARY);
         });
+
         HorizontalLayout navContainer = new HorizontalLayout();
         navContainer.add(header);
         navContainer.addAndExpand(version);
         navContainer.add(copyToClipboardButton);
+        navContainer.add(saveButton);
+        navContainer.add(loadButton);
         navContainer.setAlignItems(FlexComponent.Alignment.CENTER);
         navContainer.addClassName("navigation");
+
         addToNavbar(navContainer);
+    }
+
+    private void loadState(InputStream inputStream) {
+        stateReader.readState(inputStream, this);
+    }
+
+    private InputStream saveState() {
+        return new StringInputStream(stateWriter.write(this), StandardCharsets.UTF_8);
     }
 
     private String generateLootFilter() {
@@ -147,11 +189,31 @@ public class MainView extends AppLayout implements HasStyle {
                 .setTargetAffixes(equipmentAffixPicker.getSelectedItems())
                 .setTargetIdolAffixes(idolsAffixPicker.getSelectedItems())
                 .setShatterAffixes(shatterAffixPicker.getSelectedItems())
-                .setSuppressedEquipmentTypes(equipmentPicker.getAllSuppressedTypes());
-        for (EquipmentBaseType selectedType : equipmentPicker.getPartiallySuppressedTypes()) {
-            builder.addSuppressedEquipmentSubTypes(selectedType, equipmentPicker.getSuppressedSubTypes(selectedType));
+                .setSuppressedEquipmentTypes(equipmentPicker.getNotSelectedBaseTypes());
+        for (EquipmentBaseType selectedType : equipmentPicker.getPartiallySelectedBaseTypes()) {
+            builder.addSuppressedEquipmentSubTypes(selectedType, equipmentPicker.getNotSelectedSubTypes(selectedType));
         }
         LootFilter filter = builder.build();
-        return writer.writeFilter(filter);
+        return filterWriter.writeFilter(filter);
+    }
+
+    public EquipmentPicker getEquipmentPicker() {
+        return equipmentPicker;
+    }
+
+    public AffixPicker getEquipmentAffixPicker() {
+        return equipmentAffixPicker;
+    }
+
+    public AffixPicker getIdolsAffixPicker() {
+        return idolsAffixPicker;
+    }
+
+    public AffixPicker getShatterAffixPicker() {
+        return shatterAffixPicker;
+    }
+
+    public PlayerClassGridSelector getClassPicker() {
+        return classPicker;
     }
 }
