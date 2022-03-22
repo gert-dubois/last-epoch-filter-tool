@@ -1,8 +1,14 @@
 window.copyToClipboard = function (content) {
-    let container = document.createElement("textarea");
-    container.textContent = content;
-    container.style.position = "fixed";
-    document.body.appendChild(container);
-    return navigator.clipboard.writeText(container.textContent)
-        .then(() => document.body.removeChild(container));
+    if (navigator.clipboard && window.isSecureContext) {
+        return navigator.clipboard.writeText(content);
+    } else {
+        let container = document.createElement("textarea");
+        container.textContent = content;
+        container.style.position = "absolute";
+        container.style.opacity = "0";
+        document.body.appendChild(container);
+        return new Promise((res, rej) => {
+            document.execCommand('copy') ? res() : rej();
+        }).finally(() => container.remove());
+    }
 };

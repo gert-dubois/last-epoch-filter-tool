@@ -11,7 +11,7 @@ import java.util.function.Supplier;
 
 public class ClipboardButton extends Button {
 
-    private Supplier<String> clipboardContentSupplier;
+    private final Supplier<String> clipboardContentSupplier;
 
     public ClipboardButton(Supplier<String> clipboardContentSupplier) {
         super("To Clipboard", VaadinIcon.COPY_O.create());
